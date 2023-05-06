@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d6d6d6;
+}
+
+.sh1{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px #333;
+    display: flex;
+    position: fixed;
+ 
+
+}
+.sh1 h1{
+    font-weight: bold;
+    color: #f06565;
+    padding-right: 5px;
+    border-right: 1px solid #000;
+    border-radius: 40px;
+    
+}
+
+.sh2{
+    margin-left: 300px;
+    max-width: 400px;
+    margin-top: 20px;
+   
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.sh2 a{
+    text-decoration: none;
+    color: #f06565;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    border-bottom: 3px solid #f06565;
+    border-radius: 30px;
+}
+
+.sh3{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+
+}
+.sh3 h1{
+ color: #333;
+
+
+}
+
+
+
+
+.sh5{
+   width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+
+    
+
+}
+.sh6{
+  width: 600px;
+  border: 2px solid black;
+  background-color: #fff;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  
+}
+.sh6 p{
+    color: #000;
+    font-size: 25px;
+    
+    font-weight: bold;
+
+
+}
+.sh6 p:hover{
+    background: #000;
+    color: pink;
+    cursor: pointer;
+}
+
+.sh6 div{
+    display: inline-block;
+    margin: 5px;
+    
+
+}
+.sh6 div image{
+    width: 100px;
+    height: 100px;
+   
+
+}
+
+.sh6 div{
+    border: 3px solid #f06565;
+}
+
+
+.sh6 div button{
+    border: none;
+    background-color: #f06565;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.sh6 div button:hover{
+    background: #000;
+    color: pink;
+
+}
+
+.chating button{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bolder;
+    background: #f06565;
+}
+.chating{
+    right: 4%;
+    bottom: 4%;
+    z-index: 1000px;
+    position: fixed;
+}
+.chating button:hover{
+    background: #000;
+    color: pink;
+}
+h2{
+    background: #f06565;
+    max-width: 30%;
+    margin: 10px auto;
+    padding: 10p;
+    border-radius: 20px;
+    color: #fff;
+}
+h2:hover{
+    background: #000;
+    color: pink;
+    cursor: pointer;
+}
